@@ -2,7 +2,6 @@
   --color-blue: #4d5ae5;
   --color-navy: #2e2f42;
   --color-hover: #404bbf;
-  --background-color: #2e2f42;
 }
 
 body {
@@ -54,7 +53,7 @@ body {
 /* /CONTACT LINKS */
 /* HERO SECTION */
 .hero {
-  background-color: var(--background-color);
+  background-color: var(--color-navy);
 }
 .hero > .hero-text {
   font-weight: 700;
