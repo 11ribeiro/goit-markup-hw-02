@@ -22,6 +22,9 @@ body {
 .link {
   text-decoration: none;
 }
+.nav.link {
+  color: var(--color-navy);
+}
 .nav.link:hover {
   color: #404bbf;
 }
@@ -50,7 +53,7 @@ body {
 /* /NAV LINKS */
 /* CONTACT LINKS */
 .contact-links {
-  list-style: none;
+  font-style: normal;
 }
 .contact-links a {
   font-style: normal;
@@ -58,7 +61,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  color: inherit;
+  color: #434455;
 }
 .contacts:hover {
   color: #404bbf;
@@ -129,7 +132,7 @@ body {
 .team {
   background-color: #f4f4fd;
 }
-.list.team-back {
+.list.team-back > .list {
   background-color: #ffffff;
 }
 .team > h2 {
