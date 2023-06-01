@@ -1,6 +1,8 @@
 :root {
-  --logo-color: #4d5ae5;
-  --logo-color-black: #2e2f42;
+  --color-blue: #4d5ae5;
+  --color-navy: #2e2f42;
+  --color-hover: #404bbf;
+  --background-color: #2e2f42;
 }
 
 body {
@@ -16,11 +18,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--logo-color);
+  color: var(--color-blue);
 }
 .link {
   text-decoration: none;
-  color: var(--logo-color-black);
+}
+.logo-web {
+  color: var(--color-navy);
 }
 /* /LOGO */
 /* NAV LINKS */
@@ -32,7 +36,7 @@ body {
   letter-spacing: 0.02em;
 }
 .list a:active {
-  color: #404bbf;
+  color: var(--color-hover);
 }
 /* /NAV LINKS */
 /* CONTACT LINKS */
@@ -49,12 +53,16 @@ body {
 }
 /* /CONTACT LINKS */
 /* HERO SECTION */
+.hero {
+  background-color: var(--background-color);
+}
 .hero > .hero-text {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .hero > .primary-btn {
   font-weight: 500;
@@ -63,12 +71,17 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
 }
 .hero > .primary-btn:hover {
   background-color: #404bbf;
+  cursor: pointer;
 }
 /* /HERO SECTION */
 /* ADVANTAGES */
+.advantages {
+  color: var(--color-navy);
+}
 .advantages h3 {
   font-weight: 500;
   font-size: 20px;
@@ -86,8 +99,11 @@ body {
 .features > h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-navy);
 }
 /* /FEATURES */
 /* TEAM SECTION */
