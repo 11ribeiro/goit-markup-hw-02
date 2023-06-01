@@ -1,0 +1,144 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+/* LOGO */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo.bottom {
+  color: #f4f4fd;
+}
+/* /LOGO */
+/* NAV LINKS */
+.nav-links {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-links a:active {
+  color: #404bbf;
+}
+/* /NAV LINKS */
+/* CONTACT LINKS */
+.contact-links a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: inherit;
+}
+.contact-links:active {
+  color: #404bbf;
+}
+/* /CONTACT LINKS */
+/* HERO SECTION */
+.hero > .hero-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.hero > .primary-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.hero > .primary-btn:hover {
+  background-color: #404bbf;
+}
+/* /HERO SECTION */
+/* ADVANTAGES */
+.advantages h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.advantages p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* /ADVANTAGES */
+/* FEATURES */
+.features > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* /FEATURES */
+/* TEAM SECTION */
+.team > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team p {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* /TEAM SECTION */
+/* FOOTER */
+footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+/* /FOOTER */
+/* --------------------------------PORTFOLIO------------------------------------- */
+/* FILTER */
+.filter button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.filter:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+/* /FILTER */
+/* PRIVILEGE SECTION */
+.privilege h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.privilege p {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* /PRIVILEGE SECTION */
