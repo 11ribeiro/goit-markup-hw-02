@@ -22,6 +22,12 @@ body {
 .link {
   text-decoration: none;
 }
+.nav.link:hover {
+  color: #404bbf;
+}
+.nav.link:focus {
+  color: #404bbf;
+}
 .logo-header {
   color: var(--color-navy);
 }
@@ -33,12 +39,19 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-navy);
 }
-.list a:active {
+.link:active {
+  color: var(--color-hover);
+}
+.link:focus {
   color: var(--color-hover);
 }
 /* /NAV LINKS */
 /* CONTACT LINKS */
+.contact-links {
+  list-style: none;
+}
 .contact-links a {
   font-style: normal;
   font-size: 16px;
@@ -47,9 +60,13 @@ body {
   line-height: 1.5;
   color: inherit;
 }
-.contact-links:active {
+.contacts:hover {
   color: #404bbf;
 }
+.contacts:focus {
+  color: #404bbf;
+}
+
 /* /CONTACT LINKS */
 /* HERO SECTION */
 .hero {
@@ -112,7 +129,7 @@ body {
 .team {
   background-color: #f4f4fd;
 }
-.team-back {
+.list.team-back {
   background-color: #ffffff;
 }
 .team > h2 {
