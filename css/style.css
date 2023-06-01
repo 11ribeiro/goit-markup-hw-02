@@ -23,7 +23,7 @@ body {
 .link {
   text-decoration: none;
 }
-.logo-web {
+.logo-header {
   color: var(--color-navy);
 }
 /* /LOGO */
@@ -72,10 +72,13 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 .hero > .primary-btn:hover {
   background-color: #404bbf;
-  cursor: pointer;
+}
+.hero > .primary-btn:focus {
+  background-color: #404bbf;
 }
 /* /HERO SECTION */
 /* ADVANTAGES */
@@ -107,11 +110,17 @@ body {
 }
 /* /FEATURES */
 /* TEAM SECTION */
+.team {
+  background-color: #f4f4fd;
+}
 .team > h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-navy);
 }
 .team h3 {
   font-weight: 500;
@@ -127,10 +136,14 @@ body {
 }
 /* /TEAM SECTION */
 /* FOOTER */
-footer {
+.footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: var(--color-navy);
+}
+.logo-footer {
   color: #f4f4fd;
 }
 /* /FOOTER */
