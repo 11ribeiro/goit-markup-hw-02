@@ -2,14 +2,16 @@
   --color-blue: #4d5ae5;
   --color-navy: #2e2f42;
   --color-hover: #404bbf;
+  --color-white: #fff;
+  --color-grey: #434455;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--color-grey);
   background-color: #ffffff;
 }
-/* LOGO */
+/* HEADER */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -25,16 +27,16 @@ body {
 .nav.link {
   color: var(--color-navy);
 }
-.nav.link:hover {
-  color: #404bbf;
-}
-.nav.link:focus {
-  color: #404bbf;
+.link:hover,
+.link:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--color-hover);
 }
 .logo-header {
   color: var(--color-navy);
 }
-/* /LOGO */
+/* /HEADER */
 /* NAV LINKS */
 .list {
   list-style: none;
@@ -43,12 +45,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy);
-}
-.link:active {
-  color: var(--color-hover);
-}
-.link:focus {
-  color: var(--color-hover);
 }
 /* /NAV LINKS */
 /* CONTACT LINKS */
@@ -61,15 +57,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  color: #434455;
+  color: var(--color-grey);
 }
-.contacts:hover {
-  color: #404bbf;
-}
-.contacts:focus {
-  color: #404bbf;
-}
-
 /* /CONTACT LINKS */
 /* HERO SECTION */
 .hero {
@@ -80,7 +69,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-white);
   text-align: center;
 }
 .hero > .primary-btn {
@@ -88,18 +77,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--color-white);
+  background-color: var(--color-blue);
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
-.hero > .primary-btn:hover {
-  background-color: #404bbf;
+.hero > .primary-btn:hover,
+.primary-btn:focus {
+  background-color: var(--color-hover);
 }
-.hero > .primary-btn:focus {
-  background-color: #404bbf;
-}
-/* /HERO SECTION */
 /* ADVANTAGES */
 .advantages {
   color: var(--color-navy);
@@ -114,7 +100,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-grey);
 }
 /* /ADVANTAGES */
 /* FEATURES */
@@ -133,7 +119,7 @@ body {
   background-color: #f4f4fd;
 }
 .list.team-back > .list {
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 .team > h2 {
   font-weight: 700;
@@ -155,7 +141,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-grey);
 }
 /* /TEAM SECTION */
 /* FOOTER */
@@ -177,11 +163,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--color-blue);
   background-color: #f4f4fd;
 }
 .filter:hover {
-  background-color: #404bbf;
+  background-color: var(--color-hover);
   cursor: pointer;
 }
 /* /FILTER */
@@ -196,6 +182,6 @@ body {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-grey);
 }
 /* /PRIVILEGE SECTION */
