@@ -12,6 +12,7 @@ body {
   color: var(--color-grey);
   background-color: var(--color-white);
 }
+/* ---------------------------------------INDEX PAGE------------------------------------ */
 /* HEADER */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -158,6 +159,7 @@ body {
   color: var(--ghost-white);
 }
 /* /FOOTER */
+/* -----------------------------------/INDEX PAGE-------------------------------- */
 /* --------------------------------PORTFOLIO------------------------------------- */
 /* MAIN */
 .filter button {
@@ -178,3 +180,4 @@ body {
   background-color: var(--color-hover);
 }
 /* /MAIN */
+/* -------------------------------------/PORTFOLIO------------------------------- */
