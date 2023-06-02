@@ -4,12 +4,13 @@
   --color-hover: #404bbf;
   --color-white: #fff;
   --color-grey: #434455;
+  --ghost-white: #f4f4fd;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-grey);
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 /* HEADER */
 .logo {
@@ -116,7 +117,7 @@ body {
 /* /FEATURES */
 /* TEAM SECTION */
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--ghost-white);
 }
 .list.team-back > .list {
   background-color: var(--color-white);
@@ -149,7 +150,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--ghost-white);
   background-color: var(--color-navy);
 }
 .logo-footer {
@@ -164,7 +165,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-blue);
-  background-color: #f4f4fd;
+  background-color: var(--ghost-white);
 }
 .filter:hover {
   background-color: var(--color-hover);
