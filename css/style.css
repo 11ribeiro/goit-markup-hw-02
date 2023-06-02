@@ -178,7 +178,7 @@ body {
   color: var(--color-white);
   background-color: var(--color-hover);
 }
-.privilege h2 {
+/* .privilege h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -189,5 +189,5 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-grey);
-}
+} */
 /* /PRIVILEGE SECTION */
