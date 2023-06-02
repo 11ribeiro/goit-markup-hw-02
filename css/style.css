@@ -173,6 +173,15 @@ body {
 }
 /* /FILTER */
 /* PRIVILEGE SECTION */
+.btn.list {
+  font-family: "Roboto", Sans-serif;
+  cursor: pointer;
+}
+.btn.list:hover,
+.btn.list:focus {
+  color: var(--color-white);
+  border-color: var(--color-hover);
+}
 .privilege h2 {
   font-weight: 500;
   font-size: 20px;
