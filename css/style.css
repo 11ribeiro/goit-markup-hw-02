@@ -167,13 +167,9 @@ body {
   color: var(--color-blue);
   background-color: var(--ghost-white);
 }
-.filter:hover {
-  background-color: var(--color-hover);
-  cursor: pointer;
-}
 /* /FILTER */
 /* PRIVILEGE SECTION */
-.btn.list {
+.secondary-btn {
   font-family: "Roboto", Sans-serif;
   cursor: pointer;
 }
