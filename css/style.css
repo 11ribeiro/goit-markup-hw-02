@@ -91,13 +91,13 @@ body {
 .advantages {
   color: var(--color-navy);
 }
-.advantages h3 {
+.adv-first-head {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.advantages p {
+.adv-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -154,7 +154,7 @@ body {
   background-color: var(--color-navy);
 }
 .logo-footer {
-  color: #f4f4fd;
+  color: var(--ghost-white);
 }
 /* /FOOTER */
 /* --------------------------------PORTFOLIO------------------------------------- */
