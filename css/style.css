@@ -177,10 +177,10 @@ body {
   font-family: "Roboto", Sans-serif;
   cursor: pointer;
 }
-.btn.list:hover,
-.btn.list:focus {
+.secondary-btn:hover,
+.secondary-btn:focus {
   color: var(--color-white);
-  border-color: var(--color-hover);
+  background-color: var(--color-hover);
 }
 .privilege h2 {
   font-weight: 500;
