@@ -43,17 +43,13 @@ body {
 .list {
   list-style: none;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-navy);
 }
 /* /NAV LINKS */
 /* CONTACT LINKS */
-.contact-links {
+.contact-address {
   font-style: normal;
 }
-.contact-links a {
+.contact {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -66,7 +62,7 @@ body {
 .hero {
   background-color: var(--color-navy);
 }
-.hero > .hero-text {
+.hero-text {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -74,7 +70,7 @@ body {
   color: var(--color-white);
   text-align: center;
 }
-.hero > .primary-btn {
+.primary-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -84,7 +80,7 @@ body {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
-.hero > .primary-btn:hover,
+.primary-btn:hover,
 .primary-btn:focus {
   background-color: var(--color-hover);
 }
@@ -92,14 +88,14 @@ body {
 /* .advantages {
   color: var(--color-navy);
 } */
-.adv-first-head {
+.main-head {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy);
 }
-.adv-text {
+.main-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -107,7 +103,7 @@ body {
 }
 /* /ADVANTAGES */
 /* FEATURES */
-.features > h2 {
+.features-head {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -124,7 +120,7 @@ body {
 .list.team-back > .list {
   background-color: var(--color-white);
 }
-.team > h2 {
+.team-head {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -133,14 +129,14 @@ body {
   text-transform: capitalize;
   color: var(--color-navy);
 }
-.team h3 {
+.team-first-head {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy);
 }
-.team p {
+.team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -162,17 +158,16 @@ body {
 /* -----------------------------------/INDEX PAGE-------------------------------- */
 /* --------------------------------PORTFOLIO------------------------------------- */
 /* MAIN */
-.filter button {
+.secondary-btn {
+  font-family: "Roboto", Sans-serif;
+  cursor: pointer;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-blue);
   background-color: var(--ghost-white);
-}
-.secondary-btn {
-  font-family: "Roboto", Sans-serif;
-  cursor: pointer;
 }
 .secondary-btn:hover,
 .secondary-btn:focus {
